@@ -53,3 +53,75 @@ nav li:last-child a:hover{
     background-color: #cc0000;
     color:black;
 }
+
+.hero{
+    position: relative;
+    height:90vh; 
+}
+
+.hero img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-content{
+    position: absolute;
+    top:40%;
+    left:20%;
+    color: white;
+}
+.login-btn{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    width:80px;
+    height:30px;
+    border: 1px solid red;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.video-section{
+    overflow-y: scroll;
+    color: gray;
+    height:300px;
+    margin-left: 10%;
+    width: 80%;
+    border:2px solid;
+    margin-top: 50px;
+}
+
+.video-content{
+    display: flex;
+    justify-content: space-between;    
+}
+
+#heading{
+    padding-top:20px;
+}
+h2{
+    color:black;
+}
+
+.video{
+    
+    
+    margin-left: 280px; 
+    
+}
+.w-section{
+    background-color: #F5F5F5;
+    margin-top: 50px;    
+    text-align: center;
+}
+
+#h2{
+    margin-top: 50px;
+    color: red;
+}
+.we{
+    margin-top: 15px;
+    
+}
