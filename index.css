@@ -86,7 +86,7 @@ nav li:last-child a:hover{
 .video-section{
     overflow-y: scroll;
     color: gray;
-    height:300px;
+    height:350px;
     margin-left: 10%;
     width: 80%;
     border:2px solid;
@@ -113,7 +113,7 @@ h2{
 }
 .w-section{
     background-color: #F5F5F5;
-    margin-top: 50px;    
+    margin-top: 70px;    
     text-align: center;
 }
 
