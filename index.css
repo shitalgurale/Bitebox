@@ -70,7 +70,7 @@ nav li:last-child a:hover{
 .hero-content{
     position: absolute;
     top:40%;
-    left:20%;
+    left:15%;
     color: white;
 }
 .login-btn{
@@ -85,12 +85,11 @@ nav li:last-child a:hover{
 }
 
 .video-section{
-    overflow-y: scroll;
+    
     color: gray;
-    height:350px;
-    margin-left: 10%;
-    width: 80%;
-    border:2px solid;
+  
+    margin-left: 20px;
+
     margin-top: 50px;
 }
 
