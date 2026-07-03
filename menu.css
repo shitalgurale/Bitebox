@@ -91,7 +91,8 @@ nav li:last-child a:hover{
 
 .card-container{
     margin-top:70px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap:20px;
     padding: 20px;
     
@@ -102,7 +103,7 @@ nav li:last-child a:hover{
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
+    
 }
 
 .card-section p{
@@ -124,6 +125,7 @@ nav li:last-child a:hover{
     border-radius: 8px;
     cursor: pointer;
     margin-left: 10px;
+    margin-bottom: 20px;
 
 }
 
