@@ -80,13 +80,17 @@ nav li:last-child a:hover{
     border-radius: 50px;
     border: 1px solid gray;
     padding: 5px;
+    transition: transform 0.3s ease;
 
 
 }
 .icon p{
     text-align:center;
 }
-
+.icon :hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
 
 
 .card-container{
@@ -114,6 +118,10 @@ nav li:last-child a:hover{
     
     width: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.card-section img:hover{
+    transform: scale(1.15);
 }
 .card-section button{
     margin-top: 10px;
