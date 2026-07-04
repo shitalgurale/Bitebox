@@ -1,0 +1,103 @@
+section{
+    margin-top: 50px;
+}
+table{
+     margin-top: 100px;
+    width: 70%;
+    border-collapse:collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+thead{
+   
+    background: red;
+    color: white;
+}
+th,td{
+    padding:10px;
+    text-align: center;
+}
+tbody, tr{
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+.item{
+    display: flex;
+    gap:20px;
+    
+}
+.item img{
+    margin-left: 70px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 20px;    
+}
+.item-content h1{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.remove{
+    background: red;
+    color: #ddd;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.remove img{
+    height: 28px;
+    width: 28px;
+}
+
+.remove:hover{
+    background-color: darkred;
+}
+
+
+.grand-total td{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.quantity{
+    display: flex;
+    justify-content: center;
+    gap:15px
+}
+.quantity button{
+    background: red;
+    color: #ddd;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    height:30px;
+    width: 30px;
+    font-size: large;
+    margin: auto;
+}
+.quantity span{
+    font-weight: 700;
+}
+.quantity button:hover{
+    background-color: darkred;
+}
+
+.grand-total button{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    width:80px;
+    height:30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.grand-total button:hover{
+    background: darkred;
+}
