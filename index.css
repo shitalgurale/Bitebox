@@ -15,6 +15,14 @@
     top:40%;
     left:15%;
     color: white;
+    transform: scale(0.8);
+    animation: zoomIn 1.5s ease forwards;
+}
+
+    @keyframes zoomIn {
+    to {
+        transform: scale(1.15);
+    }
 }
 
 .login-btn{
@@ -28,46 +36,56 @@
     cursor: pointer;
 }
 
-.video-section{
-    
-    color: gray;
-  
-    margin-left: 20px;
-
+video{
     margin-top: 50px;
+    border-radius: 50px;
+}
+
+.video-section{
+   
+    color: gray;
+    margin-left: 10px;
+    
 }
 
 .video-content{
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    
 }
 
 #heading{
-    padding-top:20px;
+    padding-top:30px;
+    margin-top: 100px;
+    
 }
-h2{
+#heading h2{
+        
     color:black;
+    font-size: 40px;
 }
 
-.video{
-    
-    
-    margin-left: 280px; 
-    
+#heading p{
+    font-size: 20px;
 }
+
+
 .w-section{
-    background-color: #F5F5F5;
-    margin-top: 70px;    
+    margin-top: 50px;
+    background-color: #F5F5F5;    
     text-align: center;
-    height: 120px;
+    height: 150px;
 }
 
-#h2{
+.w-section h2{
+
     margin-top: 50px;
     
+    font-size: 40px;
     color: red;
 }
 .we{
     margin-top: 15px;
+    font-size: 20px;
     
 }
