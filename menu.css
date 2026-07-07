@@ -34,8 +34,6 @@
 
 .icon img:hover{
         border: 1px solid red;
-
-    
 }
 
 
@@ -86,6 +84,5 @@
 .card-section button:hover{
     background: darkred;
     border: 1px solid darkred;
-
-
 }
+

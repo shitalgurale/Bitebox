@@ -1,56 +1,140 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.heading{
+    background: #f8f8f8;
+    padding: 40px;
 }
-nav{
-    padding-bottom:10px ;
-    padding-right: 20px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55px;
+.BD-Heading{
+    margin-bottom:40px;
+    border-radius:15px;
+    background:black;
+    padding: 50px;
 }
-.logo{
-display: flex;
-align-items: center;
+
+.BD-Heading h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.BD-Heading p{ 
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.head{
+    margin-left: 120px;   
+}
+
+.B-section{
+    background: #f8f8f8;
+    padding: 30px;
+}
+
+.B-container{
+    margin-top: 20px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    justify-content: center;
+    margin-left: 150px;
+    padding-top: 20px;
+}
+
+.B-card{
+    margin: 20px;
+    background: #f9f9f9; 
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;   
+}
+.B-card img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+.B-card img:hover{
+    transform: scale(1.15);
+}
+
+.B-card h4{
+    margin: 10px 0;
+}
+.no-offer{
+    text-decoration: line-through;
+    color:gray;
+    font-weight: 900;
+}
+.offer{
+    color:black;
+    font-weight: 900;
+}
+.B-card p{
+    font-size: 15px;
+}
+.B-card:hover{
+    transform: translateY(-8px);
+}
+.B-card button{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    width:80px;
+    height:30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
 
 }
 
-.logo img{
-    width: 200px;
-    height: 70px;
-    object-fit: contain;
+.B-card button:hover{
+    background: darkred;
 }
- 
-nav a{
-    text-decoration: none;
-    color:white;
-}
-nav a:hover{
-    color:red;
-    text-decoration: underline;
-}
-
-nav a:active{
-    color:red;
-    font-weight: bold;
-    border-bottom: 2px solid red;
-}
-
-ul{
-    display: flex;
-    list-style-type: none;
+.s-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    justify-content: center;
+    margin-left: 150px;
+    padding-top: 20px;
     gap:20px;
 }
 
-nav li:last-child a{
-    background-color: red;
-    padding: 6px 12px;
-    border-radius:5px;
+.s-card{
+    padding: 25px;
+    background: #fff; 
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin-bottom: 60px;
 }
-nav li:last-child a:hover{
-    background-color: #cc0000;
-    color:black;
+.s-card h3{
+    margin-bottom: 10px;
 }
+
+.s-card span{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #000000;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.s-card h3{
+    margin-bottom: 10px;
+}
+
+.s-card:hover{
+    transform: translateY(-8px);
+}
+
+.red {border-top: 5px solid red;}
+.yellow {border-top: 5px solid yellow;}
+.green {border-top: 5px solid green;}

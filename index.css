@@ -16,7 +16,7 @@
     left:15%;
     color: white;
     transform: scale(0.8);
-    animation: zoomIn 1.5s ease forwards;
+    animation: zoomIn 1.5s  ease forwards;
 }
 
     @keyframes zoomIn {
