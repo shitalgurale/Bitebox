@@ -46,8 +46,16 @@
             
                <h1>Login to Bite<span>Box</span></h1>
             <form>
-                <input type="email" placeholder="Enter Email" id="email" required>       
-                <input type="password" placeholder="Enter Password" id="password" required>           
+                <input type="email" placeholder="Enter Email" id="email" required>  
+                
+            <div style="position: relative;">
+
+                <input type="password" placeholder="Enter Password" id="password" required>  
+                <span onclick="togglePassword()"
+                    style="position:absolute; right:10px; top:50%; transform:translateY(-50%); cursor:pointer;">
+                <i class="fa-solid fa-eye"></i>
+                </span>    
+            </div>     
                 <button type="button" onclick="login()">Login</button>
             
             </form>

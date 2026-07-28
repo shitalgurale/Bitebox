@@ -20,3 +20,32 @@ function login()
             error.innerText ="Invalid Email or Password";
         }
 }
+
+
+
+function togglePassword(){
+
+    let passwordInput = document.getElementById("password");
+
+    if(passwordInput.type === "password"){
+        passwordInput.type ="text";
+    
+    }else{
+        passwordInput.type = "password";
+    }
+}
+
+function toggleMenu(){
+    let menu = document.getElementById("d1")
+    let icon = document.getElementById("menuIcon");
+
+    menu.classList.toggle("show");
+
+    if(menu.classList.contains("show")){
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-xmark");
+    }else{
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
+    }
+}
