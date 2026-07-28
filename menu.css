@@ -86,3 +86,50 @@
     border: 1px solid darkred;
 }
 
+@media(max-width:768px){
+
+    /* FOOD CATEGORY ICONS */
+    .icon-container{
+        display:flex;
+        overflow-x:auto;
+        gap:15px;
+        padding:20px;
+        margin-top:90px;
+    }
+
+
+    .icon{
+        min-width:80px;
+        text-align:center;
+    }
+
+
+    .icon img{
+        width:70px;
+        height:70px;
+        border-radius:50%;
+        object-fit:cover;
+    }
+
+
+    /* FOOD CARDS */
+
+    .card-container{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+        padding:20px;
+    }
+
+
+    .card-section{
+        width:100%;
+    }
+
+
+    .card-section img{
+        width:100%;
+        height:auto;
+    }
+
+}

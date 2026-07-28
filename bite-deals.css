@@ -140,3 +140,73 @@
 .red {border-top: 5px solid red;}
 .yellow {border-top: 5px solid yellow;}
 .green {border-top: 5px solid green;}
+
+
+
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+.heading{
+    padding-top:100px;
+    margin-top:0;
+}
+
+
+.BD-Heading{
+    width:90%;
+    margin:auto;
+    padding:30px 15px;
+}
+
+
+.BD-Heading h1{
+    font-size:32px;
+}
+
+
+.BD-Heading p{
+    font-size:16px;
+}
+
+
+.head{
+    margin-left:0;
+    text-align:center;
+    font-size:24px;
+}
+
+
+.B-container,
+.s-container{
+
+    width:90%;
+    margin:auto;
+    grid-template-columns:1fr;
+    gap:20px;
+
+}
+
+
+.B-card{
+    margin:10px 0;
+}
+
+
+.B-card img{
+    width:100%;
+}
+
+
+.B-card img:hover{
+    transform:none;
+}
+
+
+.s-card{
+    margin-bottom:20px;
+}
+
+
+}

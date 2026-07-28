@@ -36,7 +36,7 @@ function togglePassword(){
 }
 
 function toggleMenu(){
-    let menu = document.getElementById("d1")
+    let menu = document.getElementById("menu")
     let icon = document.getElementById("menuIcon");
 
     menu.classList.toggle("show");
